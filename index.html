@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Avengers</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"> MARVALS</h1>
+        <ul class="nav-links">
+            <li><a href="#"></a> Home</li>
+            <li><a href="#char"></a> characters</li>
+            <li><a href="#about"></a> About</li>
+            
+            <li><a href="#history1"></a> History</li>
+        </ul>
+        <img src="images/logo2.png" alt="logo" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Marvales</h2>
+            <div class="line">
+            </div>
+                <h1>The Avengers</h1>
+                <a href="https://www.marvel.com/teams-and-groups/avengers" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="characters" id="char">
+        <div class="title">
+            <h1>Some Famous characters</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/im.jpg" alt="avengers iamge">
+                <h4>INORNMAN</h4>
+            </div>
+
+            <div class="col">
+                <img src="images/spider.jpg" alt="avengers iamge">
+                <h4>SPIDERMAN</h4>
+            </div>
+
+            <div class="col">
+                <img src="images/thor2.jpg" alt="avengers iamge">
+                <h4>THOR</h4>
+            </div>
+
+            <div class="col">
+                <img src="images/thor.png" alt="avengers iamge">
+                <h4>CAPTION</h4>
+            </div>
+
+        </div>
+
+
+        
+    </section id="about">
+
+    <section class="about">
+        <div class="about-content">
+            <h1>About the Avengers</h1>
+            <div class="line"></div>
+            <p>Marvel's The Avengers (titled Marvel Avengers Assemble in the United Kingdom and Ireland and commonly referred to as simply The Avengers) is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </section>
+
+    <section class="history" id="history1">
+        <div class="history-content">
+            <h1>History</h1>
+            <div class="line"></div>
+            <p>The precursor to Marvel Comics was founded in 1939 by pulp magazine publisher Martin Goodman. In order to capitalize on the growing popularity of comic books—especially those starring superheroes—Goodman created Timely Comics. Timely’s first comic book was Marvel Comics no. 1 (cover dated October 1939), which featured several superhero characters, most notably the Human Torch and the Sub-Mariner. Timely Comics introduced many superhero characters during comics’ “Golden Age” in the 1940s, most importantly Captain America, who first appeared in Captain America Comics no. 1 (March 1941). Timely characters were often portrayed as fighting against the Nazis and the Japanese even before the United States entered World War II. As the 1940s came to a close, superheroes fell out of vogue with comic book readers, and Timely canceled the last of its books in this genre in 1950. In 1951 Goodman formed his own distribution company, and Timely Comics became Atlas Magazines. Though there was a brief experiment in bringing back superheroes such as Captain America in 1953, Atlas’s output was mostly in other genres such as humour, westerns, horror, war, and science fiction.</p>
+            <a href="https://www.britannica.com/money/Marvel-Comics" class="ctn">Click here for more information</a>
+
+
+        </div>
+    </section>
+    <footer class="footer">
+       
+            <h4>----- Copyright 2024- Developed by Prashant Shinde | 9130561382 -----</h4>
+        
+    </footer>
+
+    <script>
+        const menubtn=document.querySelector('.menu-btn');
+        const navlinks=document.querySelector('.nav-links');
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+
+    
+</body>
+</html>
