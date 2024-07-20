@@ -1,5 +1,6 @@
 # The-avengers
 The Avenger is an practice project.Aim of this project is to improve the skills of html css and javascript.
+This website represents the information about marvals avenger comic and movies. 
 # Technologies Uesd
 For creating this project i have used the html css and javascript.
 # Some screenshots of project
